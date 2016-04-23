@@ -3,6 +3,7 @@
 # FLAGs will not be put in the code but in a file and have a dummy value for now
 #
 # 22-April-2016 - Tech49 - create state machine skeleton
+#playing with GIT
 
 #import sys
 #import serial
