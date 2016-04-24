@@ -10,4 +10,7 @@ Then in the first config I added SPI and I2C, expanded the filesystem and change
 #Next up
 Nokia display? or something else
 
+#Links
+Mifare 1Kbyte Card info [http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf] 
+
 
