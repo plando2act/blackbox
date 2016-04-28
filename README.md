@@ -17,7 +17,7 @@ sudo apt-get upgrade
 ```
 on you bright new image to get the latest and greatest new Wheezy
 
-Watch a great tutorial: [https://www.youtube.com/watch?v=LGs048l6kbQ&list=PLP7qPet500dcE-zP_-EVEisi7N1Lh4Ekk]
+I really reccommend you a great tutorial that was released in October 2015 with 7 clear steps from [Andr.oid Eric] (https://www.youtube.com/watch?v=LGs048l6kbQ&list=PLP7qPet500dcE-zP_-EVEisi7N1Lh4Ekk). 
 Before the following steps, check for SPI devices:
 ```bash
    ls /dev/spi* 
@@ -42,22 +42,20 @@ Add one line at the bottom:  device_tree=on
 Then reboot the Pi:
 ```bash
 sudo shutdown now -r
-```<br>
-
-This device tree-stuff seems to be crucial, in some blogs it is missed and in some it is present. This is where my first try went wrong I guess.<p>
-
-First test your RFID-RC522 reader with:
+```
+This device tree-stuff seems to be crucial, in some blogs it is missed and in some it is present. This is where my first try went wrong I guess.First test your RFID-RC522 reader with:
 ```bash
 sudo python read.py
 ```
 in the directory /MFRC522-python, it should do something like this:
+```bash
 Card detected
 Card read UID: 102,162,107,48,159
 Card detected
 Card read UID: 172,79,145,110,28
 wrong Card
 (etc)
-
+```
 Now the fun starts, we need another library..<br>
 Use the [mxgxw] (https://github.com/mxgxw/MFRC522-python) examples !Mind the other author name!.
 First make another folder (e.g. mxgxw) cd into that new directory and then use the following to clone:
