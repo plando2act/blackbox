@@ -80,11 +80,11 @@ sudo python Dump.py
 ```
 For more code visit  the [mxgxw Blog](http://helloraspberrypi.blogspot.nl/2015/10/raspberry-pi-python-mxgxwmfrc522-python.html), the second code is really nice because it dumps a card, asks you to remove the card and then cycles to a read again. Watch the video and enjoy a bit of coding.<br>
 
-If you then fiddle around with the code, do copy the 2 `MFRC522.py*` files, they contain a library that you will need to import when interacting with the SPI RFID reader device on SPI port 0.
+If you then fiddle around with the code in another directory like the `\blackbox` directory, do copy the 2 `MFRC522.py*` files, they contain a (compiled?) library that you will need to import in your python code when interacting with the SPI RFID reader device on SPI port 0.
 
 #Next up
-Get the 2.2 TFT display working on SPI port 1 since SPI0 is taken.
+-Get the 2.2 TFT display working on SPI port 1 since SPI0 is taken.
 
 #Links
-Mifare 1Kbyte Card info [http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf] <br>
-Raspberry Pi pinout ![image](http://pingig.com/sites/default/files/raspberrypirev2pinout.jpg)
+-Mifare 1Kbyte Card info [http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf] <br>
+-Raspberry Pi pinout ![image](http://pingig.com/sites/default/files/raspberrypirev2pinout.jpg)
