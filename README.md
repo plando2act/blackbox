@@ -10,7 +10,7 @@ I wanted to share how I got to the point that I could start writing Python code 
 So I personally started with a Raspbian Wheezy image file (2014 version for Raspberry Pi B model 2.. yes there are newer versions but this was the one I already had).
 First :  sudo raspi-config        [set GPU ram to 0, enable SPI & I2C bus, set timezones, expanded the filesystem and changed the pi password (yes, you should do this also..)
 
-Then sudo apt-get update, sudo apt-get upgrade for a bright new image
+Then sudo apt-get update, sudo apt-get upgrade on you bright new image to get the latest and greatest new Wheezy
 
 Watch a great tutorial: [https://www.youtube.com/watch?v=LGs048l6kbQ&list=PLP7qPet500dcE-zP_-EVEisi7N1Lh4Ekk]
 
