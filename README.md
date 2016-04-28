@@ -86,5 +86,5 @@ If you then fiddle around with the code, do copy the 2 `MFRC522.py*` files, they
 Get the 2.2 TFT display working on SPI port 1 since SPI0 is taken.
 
 #Links
-Mifare 1Kbyte Card info [http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf].
-[Raspberry Pi pinout](http://pingig.com/sites/default/files/raspberrypirev2pinout.jpg)
+Mifare 1Kbyte Card info [http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf] <br>
+Raspberry Pi pinout ![image](http://pingig.com/sites/default/files/raspberrypirev2pinout.jpg)
