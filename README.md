@@ -15,14 +15,13 @@ sudo raspi-config
 set `GPU ram` to 0, `enable SPI & I2C bus`, `set timezones`, `expanded the filesystem` and `changed the pi password`.
 (yes, you should do this also..)
 
-Then 
+Then on your bright new booted image you would want to update to get the latest and greatest stuff:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
-on you bright new image to get the latest and greatest new Wheezy.
 
-I really recommend you also watch a great tutorial that was released in October 2015 with 7 clear steps made by [Andr.oid Eric](https://www.youtube.com/watch?v=LGs048l6kbQ&list=PLP7qPet500dcE-zP_-EVEisi7N1Lh4Ekk). Just as a starter. <br> 
+I recommend you also watch a nice tutorial that was released in October 2015 by [Andr.oid Eric](https://www.youtube.com/watch?v=LGs048l6kbQ&list=PLP7qPet500dcE-zP_-EVEisi7N1Lh4Ekk). Just as a starter. <br> 
 
 Next step, check for SPI devices:
 ```bash
