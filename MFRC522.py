@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
+# Added MFRC522_ReadSector to transfer raw sector data to Python code
+
 import RPi.GPIO as GPIO
 import spi
 import signal
@@ -355,7 +357,7 @@ class MFRC522:
       print "Error while reading!"
     i = 0
     if len(backData) == 16:
-    #commented out the printscree
+    #commented out the printscreen
     #print "Sector "+str(blockAddr)+" "+str(backData)
     #the addition for returning the sector data
       return backData
